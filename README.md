@@ -58,7 +58,7 @@ This system helps financial institutions automate loan approval decisions using 
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/sidharth-gupta-ds/loansense-ai.git
 cd Loan_prediction
 ```
 
