@@ -576,3 +576,74 @@
 2025-07-18 15:15:55,431 - core.explainer - INFO - SHAP values type: <class 'numpy.ndarray'>
 2025-07-18 15:15:55,431 - core.explainer - INFO - SHAP values shape: (1, 11, 2)
 2025-07-18 15:15:55,431 - core.utils - INFO - API Response from recommend: Recommendations generated successfully
+2025-07-18 16:16:09,676 - core.utils - INFO - API Request to predict: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 750, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 16:16:09,683 - core.utils - INFO - API Response from predict: {'prediction': ' Approved', 'probability': 0.91, 'confidence': 'High'}
+2025-07-18 16:16:09,686 - core.utils - INFO - API Request to explain: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 750, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 16:16:09,695 - core.explainer - INFO - SHAP values type: <class 'numpy.ndarray'>
+2025-07-18 16:16:09,696 - core.explainer - INFO - SHAP values shape: (1, 11, 2)
+2025-07-18 16:16:09,696 - core.utils - INFO - API Response from explain: Explanation generated successfully
+2025-07-18 16:16:09,707 - core.utils - INFO - API Request to recommend: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 750, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 16:16:09,717 - core.explainer - INFO - SHAP values type: <class 'numpy.ndarray'>
+2025-07-18 16:16:09,717 - core.explainer - INFO - SHAP values shape: (1, 11, 2)
+2025-07-18 16:16:09,718 - core.utils - INFO - API Response from recommend: Recommendations generated successfully
+2025-07-18 16:23:23,462 - core.utils - INFO - API Request to predict: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 750, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 16:23:23,470 - core.utils - INFO - API Response from predict: {'prediction': ' Approved', 'probability': 0.91, 'confidence': 'High'}
+2025-07-18 16:23:23,473 - core.utils - INFO - API Request to explain: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 750, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 16:23:23,482 - core.explainer - INFO - SHAP values type: <class 'numpy.ndarray'>
+2025-07-18 16:23:23,482 - core.explainer - INFO - SHAP values shape: (1, 11, 2)
+2025-07-18 16:23:23,483 - core.utils - INFO - API Response from explain: Explanation generated successfully
+2025-07-18 16:23:23,498 - core.utils - INFO - API Request to recommend: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 750, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 16:23:23,508 - core.explainer - INFO - SHAP values type: <class 'numpy.ndarray'>
+2025-07-18 16:23:23,508 - core.explainer - INFO - SHAP values shape: (1, 11, 2)
+2025-07-18 16:23:23,508 - core.utils - INFO - API Response from recommend: Recommendations generated successfully
+2025-07-18 16:26:56,325 - core.utils - INFO - API Request to predict: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 600, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 16:26:56,335 - core.utils - INFO - API Response from predict: {'prediction': ' Approved', 'probability': 0.9, 'confidence': 'High'}
+2025-07-18 16:26:56,337 - core.utils - INFO - API Request to explain: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 600, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 16:26:56,346 - core.explainer - INFO - SHAP values type: <class 'numpy.ndarray'>
+2025-07-18 16:26:56,346 - core.explainer - INFO - SHAP values shape: (1, 11, 2)
+2025-07-18 16:26:56,346 - core.utils - INFO - API Response from explain: Explanation generated successfully
+2025-07-18 16:26:56,352 - core.utils - INFO - API Request to recommend: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 600, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 16:26:56,360 - core.explainer - INFO - SHAP values type: <class 'numpy.ndarray'>
+2025-07-18 16:26:56,360 - core.explainer - INFO - SHAP values shape: (1, 11, 2)
+2025-07-18 16:26:56,360 - core.utils - INFO - API Response from recommend: Recommendations generated successfully
+2025-07-18 18:09:38,169 - core.utils - INFO - API Request to predict: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 600, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 18:09:38,197 - core.utils - INFO - API Response from predict: {'prediction': ' Approved', 'probability': 0.9, 'confidence': 'High'}
+2025-07-18 18:09:38,203 - core.utils - INFO - API Request to explain: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 600, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 18:09:38,231 - core.explainer - INFO - SHAP values type: <class 'numpy.ndarray'>
+2025-07-18 18:09:38,231 - core.explainer - INFO - SHAP values shape: (1, 11, 2)
+2025-07-18 18:09:38,232 - core.utils - INFO - API Response from explain: Explanation generated successfully
+2025-07-18 18:09:38,253 - core.utils - INFO - API Request to recommend: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 600, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 18:09:38,279 - core.explainer - INFO - SHAP values type: <class 'numpy.ndarray'>
+2025-07-18 18:09:38,279 - core.explainer - INFO - SHAP values shape: (1, 11, 2)
+2025-07-18 18:09:38,280 - core.utils - INFO - API Response from recommend: Recommendations generated successfully
+2025-07-18 18:09:44,414 - core.utils - INFO - API Request to predict: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 600, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 18:09:44,444 - core.utils - INFO - API Response from predict: {'prediction': ' Approved', 'probability': 0.9, 'confidence': 'High'}
+2025-07-18 18:09:44,453 - core.utils - INFO - API Request to explain: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 600, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 18:09:44,479 - core.explainer - INFO - SHAP values type: <class 'numpy.ndarray'>
+2025-07-18 18:09:44,479 - core.explainer - INFO - SHAP values shape: (1, 11, 2)
+2025-07-18 18:09:44,479 - core.utils - INFO - API Response from explain: Explanation generated successfully
+2025-07-18 18:09:44,494 - core.utils - INFO - API Request to recommend: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 600, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 18:09:44,513 - core.explainer - INFO - SHAP values type: <class 'numpy.ndarray'>
+2025-07-18 18:09:44,513 - core.explainer - INFO - SHAP values shape: (1, 11, 2)
+2025-07-18 18:09:44,513 - core.utils - INFO - API Response from recommend: Recommendations generated successfully
+2025-07-18 18:09:46,884 - core.utils - INFO - API Request to predict: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 600, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 18:09:46,914 - core.utils - INFO - API Response from predict: {'prediction': ' Approved', 'probability': 0.9, 'confidence': 'High'}
+2025-07-18 18:09:46,922 - core.utils - INFO - API Request to explain: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 600, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 18:09:46,964 - core.explainer - INFO - SHAP values type: <class 'numpy.ndarray'>
+2025-07-18 18:09:46,964 - core.explainer - INFO - SHAP values shape: (1, 11, 2)
+2025-07-18 18:09:46,965 - core.utils - INFO - API Response from explain: Explanation generated successfully
+2025-07-18 18:09:46,981 - core.utils - INFO - API Request to recommend: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 600, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 18:09:47,000 - core.explainer - INFO - SHAP values type: <class 'numpy.ndarray'>
+2025-07-18 18:09:47,000 - core.explainer - INFO - SHAP values shape: (1, 11, 2)
+2025-07-18 18:09:47,000 - core.utils - INFO - API Response from recommend: Recommendations generated successfully
+2025-07-18 18:09:53,177 - core.utils - INFO - API Request to predict: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 400, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 18:09:53,199 - core.utils - INFO - API Response from predict: {'prediction': ' Rejected', 'probability': 0.91, 'confidence': 'High'}
+2025-07-18 18:09:53,205 - core.utils - INFO - API Request to explain: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 400, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 18:09:53,232 - core.explainer - INFO - SHAP values type: <class 'numpy.ndarray'>
+2025-07-18 18:09:53,233 - core.explainer - INFO - SHAP values shape: (1, 11, 2)
+2025-07-18 18:09:53,233 - core.utils - INFO - API Response from explain: Explanation generated successfully
+2025-07-18 18:09:53,250 - core.utils - INFO - API Request to recommend: {'no_of_dependents': 2, 'education': ' Graduate', 'self_employed': ' Yes', 'income_annum': 8000000.0, 'loan_amount': 25000000.0, 'loan_term': 15, 'cibil_score': 400, 'residential_assets_value': 5000000.0, 'commercial_assets_value': 3000000.0, 'luxury_assets_value': 2000000.0, 'bank_asset_value': 1000000.0}
+2025-07-18 18:09:53,269 - core.explainer - INFO - SHAP values type: <class 'numpy.ndarray'>
+2025-07-18 18:09:53,269 - core.explainer - INFO - SHAP values shape: (1, 11, 2)
+2025-07-18 18:09:53,269 - core.utils - INFO - API Response from recommend: Recommendations generated successfully
+2025-07-18 18:11:01,673 - main - INFO - Shutting down Loan Prediction API...
